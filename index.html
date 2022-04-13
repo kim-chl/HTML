@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.5/fullpage.min.css"/>
+        <link rel="stylesheet" href="./index.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.5/fullpage.min.js"></script>
+        <link rel="stylesheet" href="./"/>   
+    </head>
+<body>
+    <div id="full-page">
+        <div class="section a1">
+           <h1 class="h1_txt" style="color:black; margin: 10% auto; margin-bottom: 70px; margin-top: 22px;">폼폼푸린</h1><br>
+           <h6 class="h6_txt" style="color:black; margin-top: -50px;">오늘도 푸린이는<br>귀엽지만 머핀이는 없다</h6>
+           <span>
+           <a href="#" class="btn_stroke_white" tabindex="0"  >더많은 푸린이보기</a>
+           </span>
+        </div>
+        <div class="section a2">
+            <h2>Section 2 </h2>
+        </div>
+        <div class="section a3">
+            <h2>Section 4 </h2>
+        </div>
+        <div class="section a4">
+            <h2>Section 5 </h2>
+        </div>
+    </div>
+
+    <script>
+      new fullpage('#full-page', {licensekey: 'OPEN-SOURCE-GPLV3-LICENSE',
+     //뒷 배경 
+     sectionsColor:['#ff0000','#00ff00'],
+            //네비게이션 
+            navigation:true,
+            //네비게이션 section별로 이름 
+            navigationTooltips:['Home','About','contact'],
+            autoScrolling:true,
+            //스크롤 내려가는 시간 
+            scrollingSpeed: 800,
+            scrollHorizontally: true})  
+    </script>
+</body>
+</html>
