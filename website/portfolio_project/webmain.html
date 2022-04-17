@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.5/fullpage.min.css"/>
+        <link rel="stylesheet" href="./webmain.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.5/fullpage.min.js"></script>
+        <link rel="stylesheet" href="./"/>   
+    </head>
+<body>
+    <div id="full-page">
+        <div class="section a1">
+           <h1 class="h1_txt" >편집하는 그래픽 디자이너 <br> 김윤지입니다.</h1><br>
+           <h2 class="h2_txt">PORTFOLIO</h2>
+           <a href="https://www.naver.com" target="_self" class="button" tabindex="0">Go</a>
+        
+        </div>
+        <div class="section a2">
+        <div style="margin-left: 830px; display: flex; margin-top: 20px; ">
+        <img src="./yunji01.png" />
+         <a href="https://github.com/kim-chl" target="_blank" class="h3_txt" data-text-clor="#fff">@Yunji's Github</a>
+        </div>
+    </div>
+
+    <script>
+      new fullpage('#full-page', {licensekey: 'OPEN-SOURCE-GPLV3-LICENSE',
+     //뒷 배경 
+     sectionsColor:['#ff0000','#aaaaaa'],
+            //네비게이션 
+            navigation:true,
+            //네비게이션 section별로 이름 
+            navigationTooltips:['Home','Contact'],
+            autoScrolling:true,
+            //스크롤 내려가는 시간 
+            scrollingSpeed: 800,
+            scrollHorizontally: true})  
+    </script>
+</body>
+</html>
