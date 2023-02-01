@@ -1,0 +1,19 @@
+<div>
+  <center>
+    <img src="https://gi.esmplus.com/foellie/event/230201_valetineday_couponpack/valetineday_couponpack.jpg" usemap="#Map">
+    <map name="Map">
+        <!--3천원 쿠폰-->
+        <area shape="rect" coords="52,1773,434,2007" href="#">
+        <!--5천원 쿠폰-->
+        <area shape="rect" coords="467,1776,851,2007" href="#">
+        <!--만원 쿠폰-->
+        <area shape="rect" coords="52,2088,433,2319" href="#">
+        <!--2만원 쿠폰-->
+        <area shape="rect" coords="466,2087,850,2319" href="#">
+        <!--3만원 쿠폰-->
+        <area shape="rect" coords="51,2400,431,2633" href="#">
+        <!--만원 쿠폰-->
+        <area shape="rect" coords="468,2401,850,2632" href="#">
+    </map>
+</center>
+</div>
