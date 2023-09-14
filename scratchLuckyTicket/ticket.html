@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <title>index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style>
+
+    #btn {
+      background: url("../img/restart.jpg");
+      width: 753px;
+      height: 90px;
+    }
+
+    #btnDiv {
+      position: absolute;
+      top:95%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #canvasDiv{
+      display: inline-block;
+      width: 785px;
+      height: 268px;
+      position: absolute;
+      background-image: url(https://github.com/kim-chl/HTML/assets/103364592/2288cafc-f446-42c8-9d16-0871b31c4f16);
+      background-size: cover;
+      background-repeat: no-repeat;
+      top:65%;left: 50%; transform: translate(-50%, -50%);
+    }
+
+    img {
+      position: relative;
+      display: block;
+      margin: 0px auto;
+    }
+
+  </style>
+</head>
+
+<body>
+<img src="../img/background.jpg">
+
+<div id="canvasDiv">
+  <canvas id='canvas' width="785" height="268" style="border: 1px solid gray;"></canvas>
+</div>
+<div id="btnDiv">
+  <button id="btn"></button>
+</div>
+
+</body>
+<script src="../js/main.js"></script>
+</html>
